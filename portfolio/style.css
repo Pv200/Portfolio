@@ -15,22 +15,8 @@ body{
     
     display: inline-flex;
     flex-direction: column;
-    gap:50px;
-    height:100%;
-    
-    border-top-right-radius:20px;
-    border-bottom-right-radius:20px;
-    
-    
-    
-    
-    
+    gap: 20px;
     flex-basis: content;
-    position:absolute;
-    
-    
-    background-color: #dddddd08;
-    
 
 }
 .one{
@@ -107,13 +93,11 @@ span{
 }
 .alignment{
     display: inline-flexbox;
-    width:700px;
-    height: 600px;
-    margin-left:400px;
+    width:900px;
+    height: 660px;
     margin-top:7%;
     margin-bottom:7%;
     border: 0.5px solid white;
-
     
     
 }
@@ -127,21 +111,50 @@ img{
 }
         
 .image{
-    margin-right:20px;
     box-shadow: #0f0c29;
+    text-align: center;
 }
 .aboutme{
-    margin-top:10px;
-    margin-right:20px;
+    margin-top:50px;
+    margin-right:40px;
+    text-align: justify;
 
 }
+.fullhouse
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}
+.btn
+{
+    max-width: 52px;
+    -webkit-transition: max-width 0.5s;
+    transition: max-width 0.5s;
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    overflow:hidden;
+    width: auto;
+    
 
+    
+}
 
+.btn:hover {
+    background-color:#302b63 ;
+    max-width: 300px;
+    
+}
+.itext
+{
+    white-space: nowrap;
+    padding-right: 15%;
+}
+.fa
+{
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
 
-  
-
-
-
-
-
-
+}
