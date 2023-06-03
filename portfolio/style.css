@@ -92,7 +92,9 @@ span{
     
 }
 .alignment{
-    display: inline-flexbox;
+    display: grid;
+    grid-template-rows: repeat(1);
+    grid-template-columns: repeat(2);
     width:900px;
     height: 660px;
     margin-top:7%;
